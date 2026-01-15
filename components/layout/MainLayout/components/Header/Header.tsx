@@ -4,15 +4,15 @@ import Link from "next/link"
 const Header = () => {
     return (
         <div className="flex items-center h-20 px-14">
-            <div className="flex-1 flex items-center gap-2">
+            <Link href={"/"} className="flex-1 flex items-center gap-2">
                 <img
                     src={"/images/logo.png"}
                     className="w-8 h-8"
-                />
+                    />
                 <h4 className="font-bold text-primaryMain text-lg">
                     Architectural Academy
                 </h4>
-            </div>
+            </Link>
 
             <div className="flex items-center gap-8">
             {
