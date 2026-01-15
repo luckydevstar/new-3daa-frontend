@@ -36,7 +36,7 @@ const Header = () => {
                         Login
                     </button>
                 </Link>
-                <Link href={"/sign-up"}>
+                <Link href={"/signup"}>
                     <button className="text-black bg-secondaryMain text-sm font-bold rounded-sm px-4 py-1.5 cursor-pointer">
                         Sign up
                     </button>

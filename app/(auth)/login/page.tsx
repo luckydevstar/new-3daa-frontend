@@ -1,6 +1,12 @@
 const Login = () => {
     return (
-        <h1 className="text-2xl font-black">This is Login page</h1>
+        <div
+            className="flex items-center justify-center bg-primaryMain"
+            style={{minHeight: 'calc(100vh - 200px)'}}
+            
+        >
+            
+        </div>
     )
 }
 
