@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "./fonts.css";
+
+@theme {
+    /* Font Customization */
+    --font-family-primary: LiberationSans;
+    --font-family-primary-bold: LiberationSans-bold;
+
+    /* Color Customization */
+}
