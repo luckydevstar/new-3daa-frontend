@@ -18,6 +18,8 @@ const Signup = () => {
                         <span className="text-black pr-2">Join</span>
                         <span className="text-primaryMain">3DAA</span>
                     </h3>
+
+                    <h3 className="font-semibold text-lg text-lightDark">Create an Account</h3>
                 </div>
 
                 <div className="flex gap-2">
