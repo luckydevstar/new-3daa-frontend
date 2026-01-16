@@ -1,6 +1,8 @@
+import { Programs } from "@/components/view"
+
 const Program = () => {
     return (
-        <h1 className="text-2xl font-black">This is Program page</h1>
+        <Programs />
     )
 }
 

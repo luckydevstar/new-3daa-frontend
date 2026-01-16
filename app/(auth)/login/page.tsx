@@ -8,7 +8,6 @@ const Signup = () => {
         <div
             className="flex items-center justify-center bg-primaryMain py-1"
             style={{minHeight: 'calc(100vh - 200px)'}}
-            
         >
             <div className="flex flex-col items-center max-w-125 w-125 bg-white rounded-4xl shadow-sm px-20 py-10 gap-4">
                 <div className="flex flex-col gap-2 items-center">

@@ -9,7 +9,7 @@ export const MAIN_NAVIGATIONS = [
         url: "/about",
         name: "About"
     }, {
-        url: "/training",
+        url: "/program",
         name: "Online Training"
     }, {
         url: "/contact",
