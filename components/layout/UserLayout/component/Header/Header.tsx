@@ -8,7 +8,7 @@ import { Card } from "@/components/ui/card";
 const Header = () => {
     return (
         <Fragment>
-            <Image width={125} height={125} alt="logo" src="/images/logo.png" className="fixed top-2 left-[50vw] transform -translate-x-1/2 z-50" />
+            <Image width={125} height={125} alt="logo" src="/images/logo.png" className="fixed top-2 left-[50vw] transform -translate-x-1/2 z-50 shadow-lg" />
             <div className="h-[90px] bg-white flex items-center justify-between px-10 sticky top-0 z-30" >
                 <div className="w-10 h-10">
                     <img src={"/images/icons/icon-earth.png"} className="w-full h-full" />
