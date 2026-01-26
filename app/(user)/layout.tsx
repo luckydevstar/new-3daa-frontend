@@ -1,12 +1,13 @@
+import UserLayout from "@/components/layout/UserLayout/UserLayout";
 import { PropsWithChildren } from "react";
 
 interface LayourProps {}
 
 const Layout = ({children}: PropsWithChildren<LayourProps>) => {
     return (
-        <div className="bg-amber-100">
+        <UserLayout>
             {children}
-        </div>
+        </UserLayout>
     )
 }
 
