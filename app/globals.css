@@ -123,3 +123,13 @@
     @apply bg-background text-foreground;
   }
 }
+
+.PhoneInput button {
+  border: 1px solid rgba(0,0,0, 0.1) !important;
+}
+
+.PhoneInput input {
+  height: 40px;
+  border-top-right-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+}
