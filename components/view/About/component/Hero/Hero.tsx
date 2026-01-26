@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 
-const About = () => {
+const AboutHero = () => {
     return (
         <div className="bg-cover bg-center" style={{backgroundImage: "url(/images/about-bg.jpg)"}}>
             <div className="bg-primaryMain/90 min-h-[90vh]">
@@ -43,4 +43,4 @@ const About = () => {
     )
 }
 
-export default About;
+export default AboutHero;
