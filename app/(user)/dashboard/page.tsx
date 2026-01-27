@@ -1,7 +1,9 @@
-const Dashboard = () => {
+import { Dashboard } from "@/components/view/Dashboard";
+
+const DashboardPage = () => {
     return (
-        <h1 className="text-2xl font-black text-primaryMain">This is Dashboard page</h1>
+        <Dashboard />
     )
 }
 
-export default Dashboard;
+export default DashboardPage;
