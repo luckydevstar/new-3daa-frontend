@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { AlarmClock, AtSign, BellRing, BookOpen, Briefcase, Handshake, LayoutDashboard, MessageCircle, Newspaper, Settings, User } from "lucide-react";
+import { AtSign, BellRing, BookOpen, Briefcase, Handshake, LayoutDashboard, MessageCircle, Newspaper, Settings, User } from "lucide-react";
 import { Fragment } from "react";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Badge } from "@/components/ui/badge";
@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <Fragment>
             <Image width={125} height={125} alt="logo" src="/images/logo.png" className="fixed top-2 left-[50vw] transform -translate-x-1/2 z-50 shadow-lg" />
-            <div className="h-[90px] bg-white flex items-center justify-between px-10 sticky top-0 z-30" >
+            <div className="h-22.5 bg-white flex items-center justify-between px-10 sticky top-0 z-30" >
                 <div className="w-10 h-10">
                     <img src={"/images/icons/icon-earth.png"} className="w-full h-full" />
                 </div>
@@ -18,9 +18,9 @@ const Header = () => {
                         <div className="px-4 py-1.5 border border-black/50 rounded-md cursor-pointer hover:bg-black/5">
                             <Settings size={24} />
                         </div>
-                        <div className="rounded-full bg-[#FF0000] absolute right-0 top-0 w-3.5 h-3.5 transform -translate-y-1/2 translate-x-[5px]"></div>
+                        <div className="rounded-full bg-[#FF0000] absolute right-0 top-0 w-3.5 h-3.5 transform -translate-y-1/2 translate-x-1.25"></div>
                     </PopoverTrigger>
-                    <PopoverContent side="bottom" align="end" className="w-[400px] px-6 py-6">
+                    <PopoverContent side="bottom" align="end" className="w-100 px-6 py-6">
                         <h3 className="text-sm font-bold mb-4">App</h3>
                         <div className="flex flex-wrap gap-6 w-full justify-between">
                             <div className="flex flex-col justify-center gap-1 items-center cursor-pointer">
@@ -30,14 +30,14 @@ const Header = () => {
                                 <h2 className="text-center text-xs font-semibold text-blsck/70">Dashboard</h2>
                             </div>
                             <div className="flex flex-col justify-center gap-1 items-center cursor-pointer relative">
-                                <Badge className="absolute top-0 right-0 tranform -translate-y-1/2 translate-x-[6px] bg-[#ff0000] text-white rounded-full">9</Badge>
+                                <Badge className="absolute top-0 right-0 tranform -translate-y-1/2 translate-x-1.5 bg-[#ff0000] text-white rounded-full">9</Badge>
                                 <Card className="w-16 h-16 rounded-lg p-3 shadow-md bg-[#c90303]">
                                     <BellRing className="w-full h-full text-white" />
                                 </Card>
                                 <h2 className="text-center text-xs font-semibold text-blsck/70">Notifications</h2>
                             </div>
                             <div className="flex flex-col justify-center gap-1 items-center cursor-pointer relative">
-                                <Badge className="absolute top-0 right-0 tranform -translate-y-1/2 translate-x-[6px] bg-[#ff0000] text-white rounded-full">7</Badge>
+                                <Badge className="absolute top-0 right-0 tranform -translate-y-1/2 translate-x-1.5 bg-[#ff0000] text-white rounded-full">7</Badge>
                                 <Card className="w-16 h-16 rounded-lg p-3 shadow-md bg-[#FFFFFF]">
                                     <MessageCircle className="w-full h-full text-[#76A0B5]" />
                                 </Card>
