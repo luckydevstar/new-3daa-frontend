@@ -1,5 +1,7 @@
 import { Fragment, useEffect, useState } from "react";
 import { GradientAreaChart } from "../GradientAreaChart";
+import { Button } from "@/components/ui/button";
+import { Mail } from "lucide-react";
 
 const StatisticsChart = ({currentIndex: activeDataIndex}: {currentIndex: number}) => {
     const statisticsData = [
@@ -65,15 +67,20 @@ const StatisticsChart = ({currentIndex: activeDataIndex}: {currentIndex: number}
             <div
                 className="px-4 mt-8 flex items-center border-b-2 border-[#A2BECD]"
             >
-                <div className="flex flex-col gap-5">
+                <div className="flex flex-col gap-4">
                     <h3 className="text-sm font-semibold text-center">YOUR TUTOR</h3>
-                    <div className="border-3 border-white transform rotate-45 w-24 h-24 overflow-hidden rounded-xl shadow-xl">
+                    <div className="border-3 border-white w-24 h-24 overflow-hidden rounded-xl shadow-xl">
                         <img
-                            src={"/images/avatar/tutor.jpg"}
-                            className="transform -rotate-45 scale-150 w-full h-full object-cover"
+                            src={"/images/avatar/girl.jpg"}
+                            className="w-full h-full object-cover"
                         />
                     </div>
                     <h3 className="text-base font-semibold text-center">Lisa Maynard</h3>
+
+                    <Button className="bg-[#66AC2E] flex items-center gap-2 text-white hover:bg-[#66AC2E] cursor-pointer">
+                        <Mail />
+                        <span className="text-sm">CONTACT</span>
+                    </Button>
                 </div>
 
                 <div className="flex-1 flex flex-col">

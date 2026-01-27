@@ -41,7 +41,7 @@ export default function TopProgrammes({ title = "Top 3 Programmes" }: Props) {
                 },
                 sparkline: { enabled: false },
             },
-            colors: ["#E5E7EB", "#6B95A5"],
+            colors: ["#488AFF", "#488AFF"],
             plotOptions: {
                 bar: {
                     horizontal: false,
@@ -96,14 +96,14 @@ export default function TopProgrammes({ title = "Top 3 Programmes" }: Props) {
     );
 
     return (
-        <div className="rounded-2xl shadow-sm p-6 bg-white flex-1 h-[460px]">
+        <div className="rounded-2xl p-6 bg-white flex-1 w-full h-115">
             <div className="text-2xl mt-4 font-bold mb-6">{title}</div>
 
             <div className="flex items-stretch">
-                <div className="pr-3 flex items-center">
-                    <span className="text-xs text-black font-bold">Hrs</span>
+                <div className="pr-3 flex items-center -ml-10">
+                    <span className="text-xs text-black font-bold">Learners</span>
                 </div>
-                <div className="relative w-full h-[360px] overflow-hidden -mt-6">
+                <div className="relative w-full h-90 overflow-hidden -mt-6">
                     <ReactApexChart options={options} series={series} type="bar" width="100%" height="100%" />
                 </div>
             </div>

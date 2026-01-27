@@ -54,7 +54,7 @@ function ProgressRing({
                     cy="18"
                     r={R}
                     fill="none"
-                    stroke={`url(#grad-${gradientId})`}
+                    stroke={"#488AFF"}
                     strokeWidth="4"
                     strokeLinecap="round"
                     className={run ? "ring-run" : ""}
@@ -79,19 +79,19 @@ const Progress = ({ setCurrentIndex }: { setCurrentIndex: (i: number) => void })
     const progressData = [
 
         {
-            title: "First Aid",
+            title: "Still Renders",
             progress: 75
         },
         {
-            title: "Driver Development",
+            title: "Still Renders",
             progress: 57
         },
         {
-            title: "Fire Safety",
+            title: "Still Renders",
             progress: 89
         },
         {
-            title: "Forklift (Warehouse)",
+            title: "Still Renders",
             progress: 65
         },
     ]

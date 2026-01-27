@@ -45,8 +45,8 @@ export default function TotalLearners({ completed, inProgress, title = "Total Le
         },
       },
     },
-    labels: ["Day Driving", "Night Driving"],
-    colors: ["#E5E7EB", "#6B95A5"],
+    labels: ["Completed", "In Progress"],
+    colors: ["#66AC2E", "#E1E1E1"],
     stroke: { show: false, width: 0 },
     dataLabels: {
       enabled: showLabels, // ← only after first animation
@@ -88,7 +88,7 @@ export default function TotalLearners({ completed, inProgress, title = "Total Le
   const fmt = (n: number) => n.toLocaleString();
 
   return (
-    <div className="rounded-2xl shadow-sm p-6 bg-white w-[360px] h-[460px]">
+    <div className="p-6 bg-white w-90 h-115 rounded-xl">
       <div className="text-2xl mt-4 font-bold mb-16">{title}</div>
 
       <div className="relative w-full h-full legend-round">
